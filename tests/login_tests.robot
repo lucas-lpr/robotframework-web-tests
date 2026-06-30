@@ -6,8 +6,15 @@ Test Teardown    Encerrar Sessao
 
 *** Test Cases ***
 Cenário: Login com sucesso no Sauce Demo
-    [Tags]    smoke    positivo
+    [Tags]    smoke    regressao    login_sucesso    autenticacao
     ${dados}=    Obter Dados Do Usuario    usuario_valido
     Preencher Credenciais    ${dados['user']}    ${dados['pass']}
     Submeter Login
-    Get Url                 contains           /inventory.html
+    Get Url    contains    /inventory.html
+
+Cenário: Login com senha incorreta
+    [Tags]    regressao    login_senha_incorreta    autenticacao
+    ${dados}=    Obter Dados Do Usuario    usuario_invalido
+    Preencher Credenciais    ${dados['user']}    ${dados['pass']}
+    Submeter Login
+    Validar Mensagem De Erro    ${dados['mensagem_erro']}
