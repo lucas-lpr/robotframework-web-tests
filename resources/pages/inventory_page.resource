@@ -11,7 +11,6 @@ Adicionar Lanterna Ao Carrinho
 
 Validar Quantidade De Itens No Carrinho
     [Arguments]    ${QUANTIDADE_ESPERADA}
-    # Valida se o texto dentro do ícone do carrinho bate exatamente com o número enviado
     Get Text       ${badge_cart_counter}    ==    ${QUANTIDADE_ESPERADA}
 
 Acessar O Carrinho De Compras

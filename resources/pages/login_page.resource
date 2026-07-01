@@ -22,5 +22,4 @@ Obter Dados Do Usuario
 
 Validar Mensagem De Erro
     [Arguments]    ${MENSAGEM_ESPERADA}
-    # Captura o texto do alerta na tela e valida se ele contém a frase esperada
     Get Text       ${lbl_error_msg}    contains    ${MENSAGEM_ESPERADA}
