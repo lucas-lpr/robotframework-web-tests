@@ -1,10 +1,10 @@
 # 🧪 Sauce Demo - E2E Web Automation
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/lucas-lpr/robotframework-web-tests/main/assets/badge_robot.png" alt="Robot Framework" width="120">
-  <img src="https://raw.githubusercontent.com/lucas-lpr/robotframework-web-tests/main/assets/badge_playwright.png" alt="Playwright" width="120">
-  <img src="https://raw.githubusercontent.com/lucas-lpr/robotframework-web-tests/main/assets/badge_python.png" alt="Python" width="120">
-  <img src="https://raw.githubusercontent.com/lucas-lpr/robotframework-web-tests/main/assets/badge_commits.png" alt="Conventional Commits" width="120">
+  <img src="https://raw.githubusercontent.com/lucas-lpr/robotframework-web-tests/main/assets/badge_robot.png" alt="Robot Framework" height="40">
+  <img src="https://raw.githubusercontent.com/lucas-lpr/robotframework-web-tests/main/assets/badge_playwright.png" alt="Playwright" height="40">
+  <img src="https://raw.githubusercontent.com/lucas-lpr/robotframework-web-tests/main/assets/badge_python.png" alt="Python" height="40">
+  <img src="https://raw.githubusercontent.com/lucas-lpr/robotframework-web-tests/main/assets/badge_commits.png" alt="Conventional Commits" height="40">
 </p>
 
 Projeto de automação de testes End-to-End (E2E) desenvolvido com foco em **boas práticas de engenharia de software** e **escalabilidade**. O objetivo é simular a jornada de compra de um usuário no e-commerce **Sauce Demo**, utilizando **Robot Framework** com **Playwright**.
