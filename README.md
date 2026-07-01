@@ -1,9 +1,11 @@
 # 🧪 Sauce Demo - E2E Web Automation
 
-![Robot Framework](https://shields.io)
-![Playwright](https://shields.io)
-![Python](https://shields.io)
-![Conventional Commits](https://shields.io)
+<p align="center">
+  <img src="./images/badge_robot.svg" alt="Robot Framework">
+  <img src="./images/badge_playwright.svg" alt="Playwright">
+  <img src="./images/badge_python.svg" alt="Python">
+  <img src="./images/badge_commits.svg" alt="Conventional Commits">
+</p>
 
 Projeto de automação de testes End-to-End (E2E) desenvolvido sob o padrão de **Arquitetura Limpa** e práticas de engenharia de software de nível **Sênior**. O objetivo principal é simular a jornada de compra de um usuário no e-commerce **Sauce Demo**, cobrindo desde a autenticação segura até o fechamento do pedido.
 
