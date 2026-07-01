@@ -3,6 +3,7 @@ Library      Browser
 Variables    ../config/env_dev.py
 Resource     pages/login_page.resource
 Resource     pages/inventory_page.resource
+Resource     pages/checkout_page.resource
 
 *** Keywords ***
 Iniciar Sessao
