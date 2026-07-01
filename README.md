@@ -1,10 +1,10 @@
 # 🧪 Sauce Demo - E2E Web Automation
 
 <p align="center">
-  <img src="./assets/badge_robot.svg" alt="Robot Framework">
-  <img src="./assets/badge_playwright.svg" alt="Playwright">
-  <img src="./assets/badge_python.svg" alt="Python">
-  <img src="./assets/badge_commits.svg" alt="Conventional Commits">
+  <img src="https://raw.githubusercontent.com/lucas-lpr/robotframework-web-tests/main/assets/badge_robot.svg" alt="Robot Framework" width="120">
+  <img src="https://raw.githubusercontent.com/lucas-lpr/robotframework-web-tests/main/assets/badge_playwright.svg" alt="Playwright" width="120">
+  <img src="https://raw.githubusercontent.com/lucas-lpr/robotframework-web-tests/main/assets/badge_python.svg" alt="Python" width="120">
+  <img src="https://raw.githubusercontent.com/lucas-lpr/robotframework-web-tests/main/assets/badge_commits.svg" alt="Conventional Commits" width="120">
 </p>
 
 Projeto de automação de testes End-to-End (E2E) desenvolvido com foco em **boas práticas de engenharia de software** e **escalabilidade**. O objetivo é simular a jornada de compra de um usuário no e-commerce **Sauce Demo**, utilizando **Robot Framework** com **Playwright**.
