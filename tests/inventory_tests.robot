@@ -10,6 +10,8 @@ Cenário: Adicionar múltiplos produtos ao carrinho com sucesso
     ${dados}=    Obter Dados Do Usuario    usuario_valido
     Preencher Credenciais    ${dados['user']}    ${dados['pass']}
     Submeter Login
+
     Adicionar Mochila Ao Carrinho
     Adicionar Lanterna Ao Carrinho
+    
     Validar Quantidade De Itens No Carrinho    2
