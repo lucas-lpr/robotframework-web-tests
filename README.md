@@ -1,13 +1,13 @@
 # 🧪 Sauce Demo - E2E Web Automation
 
 <p align="center">
-  <img src="./images/badge_robot.svg" alt="Robot Framework">
-  <img src="./images/badge_playwright.svg" alt="Playwright">
-  <img src="./images/badge_python.svg" alt="Python">
-  <img src="./images/badge_commits.svg" alt="Conventional Commits">
+  <img src="./assets/badge_robot.svg" alt="Robot Framework">
+  <img src="./assets/badge_playwright.svg" alt="Playwright">
+  <img src="./assets/badge_python.svg" alt="Python">
+  <img src="./assets/badge_commits.svg" alt="Conventional Commits">
 </p>
 
-Projeto de automação de testes End-to-End (E2E) desenvolvido sob o padrão de **Arquitetura Limpa** e práticas de engenharia de software de nível **Sênior**. O objetivo principal é simular a jornada de compra de um usuário no e-commerce **Sauce Demo**, cobrindo desde a autenticação segura até o fechamento do pedido.
+Projeto de automação de testes End-to-End (E2E) desenvolvido com foco em **boas práticas de engenharia de software** e **escalabilidade**. O objetivo é simular a jornada de compra de um usuário no e-commerce **Sauce Demo**, utilizando **Robot Framework** com **Playwright**.
 
 ---
 
@@ -16,7 +16,7 @@ Projeto de automação de testes End-to-End (E2E) desenvolvido sob o padrão de 
 Aqui está o resultado visual da suíte de testes integrada executada com sucesso através do relatório nativo gerado pelo framework:
 
 <p align="center">
-  <img src="./images/report_preview.jpg" alt="Report Executado com Sucesso" width="800">
+  <img src="./assets/report_preview.png" alt="Report Executado com Sucesso" width="800">
 </p>
 
 ---
@@ -35,6 +35,7 @@ O projeto foi estruturado seguindo o modelo **Page Object Pattern**, separando r
 
 ```text
 robotframework-web-tests/
+├── assets/
 ├── config/
 │   └── env_dev.py
 ├── data/

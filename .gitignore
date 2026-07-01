@@ -7,7 +7,7 @@ __pycache__/
 *.xml
 *.png
 
-!images/*.png
+!assets/*.png
 
 *.pyc
 *.pyo
